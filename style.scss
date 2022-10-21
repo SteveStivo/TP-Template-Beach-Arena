@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;700&display=swap');
+
+@import "./variables";
+
+body{
+    background-color: $bkgrnd-color-body;
+    color: $snd-color-txt;
+    padding: 4%;
+    font-family: 'Nunito', sans-serif;
+}
+
+main{
+    height: 1000px;
+    border-radius: 8px;
+    background: url(./assets/joueur_foot.png) $bkgrnd-color-main no-repeat right;
+    width: 90%;
+    margin: auto;
+
+    // ----- nav bar -----
+    header{
+        width: 80%;
+        margin: auto;
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 5%;
+            font-size: 24px;
+            .logoBeach{
+                padding-top: 30%;
+            }
+            ul{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                list-style: none;
+                width: 50%;
+                a{
+                    color: $primary-color-txt;
+                    &:link{
+                        text-decoration: none;
+                    }
+                    &:visited{
+                        text-decoration: none;
+                    }
+                    &:hover{
+                        color: $hover-color-txt;
+                    }
+                }
+            }
+            button{
+                background-color: transparent;
+                border: 1px solid black;
+                border-radius: 12px;
+                width: 184px;
+                height: 74px;
+                font-size: 24px;
+            }
+            
+        }
+    }
+
+    // ------ card container-------
+    .cardContainer{
+        width: 80%;
+        margin: auto;
+        .card{
+            width: 50%;
+            //margin: auto;
+            h1{
+                font-family: 'Prompt', sans-serif;
+                font-size: 74px;
+                font-weight: 600;
+            }
+            h2{
+                font-size: 40px;
+                font-weight: 200;
+            }
+            p{
+                font-size: 24px;
+            }
+            .inputBox{
+                border: 1px solid $hover-color-txt;
+                margin: 5% 0 5%;
+                background: white;
+                border-radius: 12px;
+                width: 571px;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .imgMap{
+                    width: 6%;
+                }
+                form{
+                    width: 70%;
+                    border: 0px solid $thrd-color-txt;
+                
+                    #inputBeach{
+                        width: 100%;
+                        color: $snd-color-txt;
+                        border: none;
+                        background: transparent;
+                        font-size: 24px;
+                    }
+                }
+                .imgGo{
+                    width: 10%;
+                    height: 80%;
+                }
+            }
+            // ------ span reponse --------
+            #reponse{
+                font-family: 'Prompt', sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+                a{
+                    color: $snd-color-txt;
+
+                    &:hover{
+                        color: $hover-color-txt;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+.palmier{
+    position: relative;
+    bottom: 160px;
+}

@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@200;700&display=swap");
+body {
+  background-color: #F6F3D8;
+  color: #3E3E3E;
+  padding: 4%;
+  font-family: "Nunito", sans-serif;
+}
+
+main {
+  height: 1000px;
+  border-radius: 8px;
+  background: url(./assets/joueur_foot.png) #FFFEF6 no-repeat right;
+  width: 90%;
+  margin: auto;
+}
+main header {
+  width: 80%;
+  margin: auto;
+}
+main header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5%;
+  font-size: 24px;
+}
+main header nav .logoBeach {
+  padding-top: 30%;
+}
+main header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+}
+main header nav ul a {
+  color: #1E1E1E;
+}
+main header nav ul a:link {
+  text-decoration: none;
+}
+main header nav ul a:visited {
+  text-decoration: none;
+}
+main header nav ul a:hover {
+  color: #01D98B;
+}
+main header nav button {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 184px;
+  height: 74px;
+  font-size: 24px;
+}
+main .cardContainer {
+  width: 80%;
+  margin: auto;
+}
+main .cardContainer .card {
+  width: 50%;
+}
+main .cardContainer .card h1 {
+  font-family: "Prompt", sans-serif;
+  font-size: 74px;
+  font-weight: 600;
+}
+main .cardContainer .card h2 {
+  font-size: 40px;
+  font-weight: 200;
+}
+main .cardContainer .card p {
+  font-size: 24px;
+}
+main .cardContainer .card .inputBox {
+  border: 1px solid #01D98B;
+  margin: 5% 0 5%;
+  background: white;
+  border-radius: 12px;
+  width: 571px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+main .cardContainer .card .inputBox .imgMap {
+  width: 6%;
+}
+main .cardContainer .card .inputBox form {
+  width: 70%;
+  border: 0px solid #5e5d5d;
+}
+main .cardContainer .card .inputBox form #inputBeach {
+  width: 100%;
+  color: #3E3E3E;
+  border: none;
+  background: transparent;
+  font-size: 24px;
+}
+main .cardContainer .card .inputBox .imgGo {
+  width: 10%;
+  height: 80%;
+}
+main .cardContainer .card #reponse {
+  font-family: "Prompt", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+main .cardContainer .card #reponse a {
+  color: #3E3E3E;
+}
+main .cardContainer .card #reponse a:hover {
+  color: #01D98B;
+}
+
+.palmier {
+  position: relative;
+  bottom: 160px;
+}/*# sourceMappingURL=style.css.map */
