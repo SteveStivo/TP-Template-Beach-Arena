@@ -1,13 +1,4 @@
-
-
 // ------- fonction récupération du numéro de la clé et envoi du contenu à la balise html
-function inputBeachKey() {
-    let inputBeachId = document.getElementById("inputBeach");
-    let inputBeachVal = inputBeachId.value;
-    console.log(Event.target);
-
-};
-let selected = document.getElementById('inputBeach')
 const showBeach = (str) => {
 
     if (str == "") {
